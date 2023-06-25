@@ -5,8 +5,9 @@ import logo from "../../assets/images/logo.png";
 
 const Footer = () => {
   return (
-    <div className="pt-12 pb-6 px-6 bg-[#081C03] rounded-t-lg">
-      <div className="md:flex lg:flex md:w-[90%] lg:w-[80%] mx-auto justify-between mb-20">
+    <div className="pt-12 pb-6 px-6 rounded-t-lg bg-[#081C03]">
+        {/* footer items */}
+      <div className="md:flex lg:flex mx-auto justify-between mb-20 md:w-[90%] lg:w-[80%]">
         <div className="text-center md:text-start lg:text-start text-[#FFFFFF] mb-8 md:mb-0 lg:mb-0">
           <a href="" className="block">
             About us
@@ -52,28 +53,26 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      {/*  */}
+      {/* social link and logo */}
       <div className="text-[#FFFFFF] md:flex lg:flex md:justify-between lg:justify-between w-full md:w-[90%] lg:w-[80%] mx-auto mt-10 mb-5">
         <div className="flex w-full md:w-1/2 lg:w-1/2 justify-center md:justify-start lg:justify-start items-center">
+          <p className="mr-6">Follow us</p>
 
-            <p className="mr-6">Follow us</p>
-
-
-            <a href="">
-              <img
-                src={facebook}
-                alt="facebook"
-                className="mr-2 h-10 border rounded-[50%] p-2"
-              />
-            </a>
-            <a href="">
-              <img
-                src={instagram}
-                alt="instagram"
-                className="mr-2 h-10 border rounded-[50%] p-2"
-              />
-            </a>
-          </div>
+          <a href="">
+            <img
+              src={facebook}
+              alt="facebook"
+              className="mr-2 h-10 border border-[#9DAA99] rounded-[50%] p-2"
+            />
+          </a>
+          <a href="">
+            <img
+              src={instagram}
+              alt="instagram"
+              className="mr-2 h-10 border border-[#9DAA99] rounded-[50%] p-2"
+            />
+          </a>
+        </div>
         <div className="w-full mt-5 md:w-1/2 lg:w-1/2">
           <img
             src={logo}
@@ -82,12 +81,12 @@ const Footer = () => {
           />
         </div>
       </div>
-      {/*  */}
-      <hr className="md:w-[90%] lg:w-[80%] mx-auto border-[#FFFFFF]" />
+      {/* copyright */}
+      <hr className="md:w-[90%] lg:w-[80%] mx-auto border-[#9DAA99]" />
       <p className="font-semibold text-[#FFFFFF] py-4">
         &copy; 2023 Findatrade Brittany - All rights reserved
       </p>
-      <hr className="md:w-[90%] lg:w-[80%] mx-auto border-[#FFFFFF] mb-6" />
+      <hr className="md:w-[90%] lg:w-[80%] mx-auto border-[#9DAA99] mb-5" />
       <small className="text-[#FFFFFF]">
         Web App Development by Lintech Group
       </small>
