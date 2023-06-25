@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="pt-12 pb-6 px-6 rounded-t-lg bg-[#081C03]">
         {/* footer items */}
-      <div className="md:flex lg:flex mx-auto justify-between mb-20 md:w-[90%] lg:w-[80%]">
+      <div className="md:flex lg:flex mx-auto justify-between mb-20 w-full md:w-[90%] lg:w-[80%]">
         <div className="text-center md:text-start lg:text-start text-[#FFFFFF] mb-8 md:mb-0 lg:mb-0">
           <a href="" className="block">
             About us
